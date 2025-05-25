@@ -127,7 +127,7 @@ def draw_start_dashboard():
     sound_text = "SOUND: ON" if sound_enabled else "SOUND: OFF"
     draw_button(dashboard, sound_text, sound_btn, BLUE, (100, 100, 255))
     
-    controls_title = font.render("Controls:", True, WHITE)
+    controls_title = font.render("Instructions:", True, WHITE)
     dashboard.blit(controls_title, (dashboard.get_width() // 2 - controls_title.get_width() // 2, 300))
     
     controls = [
